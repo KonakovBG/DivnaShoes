@@ -10,6 +10,7 @@ namespace DivnaShoes.Models.ProductModel
         public int size;
         public decimal price;
         public string brand { get; set; }
+        public string category;
 
         public string Name
         {
@@ -59,6 +60,18 @@ namespace DivnaShoes.Models.ProductModel
                 this.price = value;
             }
 
+        }
+
+        public string Category
+        {
+            get
+            {
+                return this.category;
+            }
+            set
+            {
+                this.category = value;
+            }
         }
       
 

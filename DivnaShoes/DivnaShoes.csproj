@@ -8,8 +8,9 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Data\" />
-    <Folder Include="Models\CartModel\" />
     <Folder Include="Models\DataModel\" />
+    <Folder Include="Models\ProductModel\Men`s Shoes\" />
+    <Folder Include="Models\ProductModel\Women`s shoes\" />
     <Folder Include="Views\" />
   </ItemGroup>
 

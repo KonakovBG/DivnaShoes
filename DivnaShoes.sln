@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivnaShoes", "DivnaShoes\DivnaShoes.csproj", "{7EAD4AD1-4336-4809-ADD7-7788B01039EE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EAD4AD1-4336-4809-ADD7-7788B01039EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EAD4AD1-4336-4809-ADD7-7788B01039EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EAD4AD1-4336-4809-ADD7-7788B01039EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EAD4AD1-4336-4809-ADD7-7788B01039EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

@@ -12,6 +12,7 @@ namespace DivnaShoes.Models.ProductModel.Women_s_shoes
 
         public Mules(int Size) : base(name, Size, price, brand)
         {
+
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DivnaShoes.Controllers;
+using System;
 
 namespace DivnaShoes
 {
@@ -6,7 +7,9 @@ namespace DivnaShoes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            HomeController controller = new HomeController();
+
+            controller.StartUp();
         }
     }
 }

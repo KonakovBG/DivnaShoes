@@ -9,9 +9,11 @@ namespace DivnaShoes.Models.ProductModel.Men_s_Shoes
         static string name = "Hiking";
         const decimal price = 300;
         static string brand = "Timberland";
+        static string category = "Men";
 
-        public Hiking(int Size) : base(name, Size, price, brand)
+        public Hiking(int Size) : base(name, Size, price, brand,category)
         {
+            list.Add(name);
         }
     }
 }

@@ -9,9 +9,11 @@ namespace DivnaShoes.Models.ProductModel.Women_s_shoes
         static string name = "Platform";
         const decimal price = 520;
         static string brand = "Marc Fischer";
+        static string category = "Women";
 
-        public Platform(int Size) : base(name, Size, price, brand)
+        public Platform(int Size) : base(name, Size, price, brand,category)
         {
+            list.Add(name);
         }
     }
 }

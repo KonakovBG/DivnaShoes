@@ -125,8 +125,17 @@ namespace DivnaShoes.Controllers
 
         public void Introduction()
         {
-            Console.WriteLine("Please choose: Command/Shoe/Size");
+            Console.WriteLine("Please choose: Command/Shoe/Size" +
+                "Add/Type/size");
         }
+        public void List()
+        {
+            
+            
+            
+        }
+        
+
     }
         
  

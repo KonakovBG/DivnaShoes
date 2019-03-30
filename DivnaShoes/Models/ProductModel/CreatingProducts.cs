@@ -14,10 +14,6 @@ namespace DivnaShoes.Models.ProductModel
         public Product Mules;
         public Product Platform;
         public Product Pumps;
-
-        public void CreateProducts()
-        {
-            
-        }
+       
     }
 }

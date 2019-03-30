@@ -4,13 +4,14 @@ using System.Text;
 
 namespace DivnaShoes.Models.ProductModel
 {
-    public abstract class Product
+    public class Product
     {
         public string name;
         public int size;
         public decimal price;
         public string brand { get; set; }
         public string category;
+        public List<string> list = new List<string>();
 
         public string Name
         {
@@ -75,12 +76,13 @@ namespace DivnaShoes.Models.ProductModel
         }
       
 
-        public Product(string Name, int Size, decimal Price,string brand)
+        public Product(string Name, int Size, decimal Price,string Brand,string Category)
         {
             this.name = Name;
             this.size = Size;
             this.price = Price;
-            this.brand = brand;
+            this.brand = Brand;
+            this.category = Category;
 
         }
     }
